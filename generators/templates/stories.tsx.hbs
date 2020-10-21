@@ -7,9 +7,9 @@ export default {
   component: {{pascalCase name}}
 } as Meta
 
-const Template = (args) => <{{pascalCase name}} {...args} />
+const Template: Story = (args) => <{{pascalCase name}} {...args} />
 
-export const Basic: Story = Template.bind({})
+export const Basic = Template.bind({})
 Basic.args = {
   
 }
